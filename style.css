@@ -1,0 +1,1449 @@
+ @import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@100;200;300;400;500;600;700;800;900&display=swap');
+
+ /* Shared Styles Goes Here */
+ * {
+     font-family: 'Work Sans', sans-serif;
+ }
+
+ .container {
+     padding: 30px 100px;
+ }
+
+
+ /* Navbar Style Goes Here */
+ nav {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     padding: 0px 100px;
+     background: #FFF;
+     box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+ }
+
+ nav .nav-left {
+     display: flex;
+     align-items: center;
+     gap: 20px;
+ }
+
+ nav .nav-left img {
+     width: 100%;
+ }
+
+ nav .nav-left h2 {
+     color: #0B0223;
+     text-align: center;
+     font-size: 45px;
+     font-weight: 700;
+ }
+
+ nav .nav-left h2 span {
+     color: #FF42A5;
+ }
+
+ nav ul {
+     display: flex;
+     flex-direction: row;
+     list-style: none;
+ }
+
+ nav ul li {
+     margin-left: 20px;
+ }
+
+ nav ul li a {
+     text-decoration: none;
+     color: #3C354F;
+     text-align: center;
+     font-size: 18px;
+     font-weight: 500;
+ }
+
+ nav ul li a:hover {
+     color: #FF42A5;
+ }
+
+ nav ul li i {
+     font-size: 18px;
+     margin-left: 15px;
+ }
+
+ nav ul li .fa-youtube {
+     color: hsla(4, 93%, 51%, 1);
+ }
+
+ nav ul li .fa-tiktok {
+     color: hsla(0, 0%, 0%, 1);
+ }
+
+ nav ul li .follow {
+     border-radius: 8px;
+     background: rgba(11, 2, 35, 0.10);
+     padding: 10px 20px;
+ }
+
+ /* Navbar Style Ends Here */
+
+ /* Hero Section Style Goes Here */
+ .hero {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     gap: 100px;
+ }
+
+ .hero .hero-left {
+     width: 50%;
+ }
+
+ .hero .hero-left h2 {
+     color: #0B0223;
+     font-size: 48px;
+     font-weight: 600;
+     text-transform: uppercase;
+     margin-bottom: 0px;
+ }
+
+ .hero .hero-left h1 {
+     margin-top: 0px;
+     font-size: 95px;
+     font-weight: 800;
+     text-transform: uppercase;
+     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+     background-clip: text;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     margin-bottom: 0px;
+ }
+
+ .hero .hero-left p {
+     color: #534C64;
+     font-size: 20px;
+     font-weight: 500;
+     text-transform: lowercase;
+ }
+
+ .hero .hero-left i {
+     font-size: 20px;
+     margin-right: 15px;
+     color: #FF42A5;
+ }
+
+ .hero .hero-left .btn {
+     border-radius: 50px;
+     padding: 15px 30px;
+     color: #FFF;
+     font-size: 18px;
+     font-weight: 500;
+     text-transform: uppercase;
+     text-decoration: none;
+     margin-top: 30px;
+     display: inline-block;
+ }
+
+ .hero .hero-left .btn1 {
+     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+ }
+
+ .hero .hero-left .btn1:hover {
+     background: white;
+     color: #FF42A5;
+     border: 1px solid #FF42A5;
+ }
+
+ .hero .hero-left .btn2 {
+     background: #4EC5F7;
+     margin-left: 10px;
+ }
+
+ .hero .hero-left .btn2:hover {
+     background: white;
+     color: #4EC5F7;
+     border: 1px solid #4EC5F7;
+ }
+
+ .hero .hero-right {
+     /* width: 50%; */
+     background: #FFF;
+ }
+
+ .hero .hero-right img {
+     width: 100%;
+ }
+
+ /* Hero Section Style Ends Here */
+
+ /* Online Games Section Style Goes Here */
+ #online-games {
+     margin-top: 100px;
+     justify-content: center;
+     align-items: center;
+     text-align: center;
+ }
+
+ #online-games h2 {
+     color: #0B0223;
+     font-size: 48px;
+     font-weight: 700;
+     margin-bottom: 0px;
+ }
+
+ #online-games span {
+     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+     background-clip: text;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+     font-size: 48px;
+     font-weight: 700;
+ }
+
+ #online-games p {
+     color: #534C64;
+     font-size: 18px;
+     font-weight: 400;
+     margin-bottom: 0px;
+ }
+
+ .online-game {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     /* gap: 50px; */
+     margin-top: 15px;
+ }
+
+ .online-game-card {
+     /* background: #FFF; */
+     width: 30%;
+     padding: 25px;
+     /* box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.10); */
+ }
+
+ .online-game-card img {
+     width: 100%;
+ }
+
+ .online-game-card p {
+     color: #534C64;
+     font-size: 20px;
+     font-weight: 500;
+     text-align: left;
+ }
+
+
+ .online-game-card-special {
+     position: relative;
+     top: -12px;
+ }
+
+ .image3 {
+     opacity: 1;
+     display: block;
+     width: 100%;
+     height: auto;
+     transition: .5s ease;
+     backface-visibility: hidden;
+ }
+
+ .middle {
+     transition: .5s ease;
+     opacity: 0;
+     position: absolute;
+     top: 30%;
+     left: 50%;
+     transform: translate(-50%, -50%);
+     -ms-transform: translate(-50%, -50%);
+     text-align: center;
+ }
+
+ .online-game-card-special:hover .image3 {
+     opacity: 0.8;
+ }
+
+ .online-game-card-special:hover .middle {
+     opacity: 1;
+ }
+
+ .online-game-card-special .middle a {
+     /* background: #0B0223; */
+     /* border-radius: 50px; */
+     /* padding: 10px 20px; */
+     color: #F948B2;
+     font-size: 18px;
+     font-weight: 500;
+     /* text-transform: uppercase; */
+     text-decoration: none;
+     /* margin-top: 30px; */
+     display: inline-block;
+ }
+
+ .online-game-card-special .middle i {
+     color: #FFF;
+     font-size: 16px;
+     margin-right: 10px;
+ }
+
+
+
+ /* Online Games Section Style Ends Here */
+
+ /* Play-Instantly1 &  Play-Instantly2 Section Style Goes Here */
+ .Play-Instantly1 {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     align-items: center;
+     margin-top: 50px;
+ }
+
+ .Play-Instantly2 {
+     margin-top: -100px;
+     flex-direction: row-reverse;
+ }
+
+ .Play-Instantly1 .Play-Instantly1-left {
+     width: 40%;
+     text-align: right;
+     margin-top: -350px;
+ }
+
+ .Play-Instantly2 .Play-Instantly2-left {
+     text-align: left;
+ }
+
+ .Play-Instantly1 .Play-Instantly1-left h2 {
+     color: #0B0223;
+     font-size: 48px;
+     font-weight: 700;
+ }
+
+ .Play-Instantly1 .Play-Instantly1-left span {
+     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+     background-clip: text;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+ }
+
+ .Play-Instantly1 .Play-Instantly1-left p {
+     color: #534C64;
+     font-size: 18px;
+     font-weight: 400;
+     margin-bottom: 0px;
+ }
+
+ .Play-Instantly1 .Play-Instantly1-right {
+     width: 40%;
+     padding: 25px;
+ }
+
+ .Play-Instantly1 .Play-Instantly1-right .upper-image img {
+     width: 100%;
+ }
+
+ .Play-Instantly1 .Play-Instantly1-right .lower-image img {
+     position: relative;
+     top: -180px;
+     right: 100px;
+     width: 300px;
+     height: 325px;
+ }
+
+ .Play-Instantly2 .Play-Instantly2-right .lower-image img {
+     position: relative;
+     top: -180px;
+     left: 150px;
+     width: 300px;
+     height: 325px;
+ }
+
+ /* Play-Instantly1 &  Play-Instantly2 Section Style Ends Here */
+
+ /* Play-Button Section Style Goes Here */
+ .Play-Button {
+     justify-content: center;
+     align-items: center;
+     margin-top: -150px;
+     padding: 100px 120px;
+     display: grid;
+     grid-template-columns: repeat(5, 1fr);
+     grid-gap: 5px;
+     background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+ }
+
+ /* .Card4 {
+     justify-content: center;
+     align-items: center;
+ } */
+
+
+ /* .Play-Button {
+     display: flex;
+     flex-direction: row;
+     gap: 10px;
+     justify-content: center;
+     align-items: center;
+     margin: 0 auto;
+     margin-bottom: 10px;
+ } */
+
+ .Play-Button .Play-Button-Card {
+     display: flex;
+     flex-direction: row;
+     /* justify-content: space-between; */
+     align-items: center;
+     padding: 5px;
+ }
+
+ .Play-Button .Play-Button-Card img {
+     width: 45px;
+     height: 45px;
+     border-radius: 50%;
+ }
+
+ .Play-Button .Play-Button-Card p {
+     color: #0B0223;
+     font-size: 14px;
+     font-weight: 600;
+     margin-left: 5px;
+ }
+
+ .Play-Button .Play-Button-Card:hover {
+     color: #F948B2;
+     border: 1px solid #F948B2;
+     border-radius: 25px;
+ }
+
+ .Play-Button .Play-Button-Card p:hover {
+     color: #F948B2;
+ }
+
+ /* Play-Button Section Style Ends Here */
+
+ /* Footer Section Style Goes Here  */
+ footer {
+     background: #0B0223;
+     padding: 50px 0px;
+     color: #FFF;
+ }
+
+ footer .footer-left {
+     display: flex;
+     align-items: center;
+     justify-content: center;
+     text-align: center;
+     gap: 20px;
+ }
+
+ footer .footer-left img {
+     width: 100%;
+ }
+
+ footer .footer-left h2 {
+     color: #FFF;
+     text-align: center;
+     font-size: 54px;
+     font-weight: 800;
+     margin-bottom: 0px;
+     margin-top: 0px;
+ }
+
+ footer .footer-left h2 span {
+     color: #FF42A5;
+ }
+
+ footer ul {
+     display: flex;
+     flex-direction: row;
+     list-style: none;
+     text-align: center;
+     justify-content: center;
+     align-items: center;
+     gap: 20px;
+ }
+
+ footer ul li {
+     margin-left: 20px;
+ }
+
+ footer ul li a {
+     text-decoration: none;
+     color: #FFF;
+     text-align: center;
+     font-size: 14px;
+     font-weight: 500;
+ }
+
+ footer ul li a:hover {
+     color: #FF42A5;
+ }
+
+ footer .social-icons i {
+     font-size: 32px;
+     margin: 20px 10px;
+ }
+
+ footer .social-icons i:hover {
+     color: #FF42A5;
+ }
+
+ footer .menu2 ul li a {
+     color: rgba(255, 255, 255, 0.60);
+     font-size: 12px;
+     font-weight: 500;
+ }
+
+ footer .menu2 ul li a:hover {
+     color: #FFF;
+ }
+
+ footer p {
+     color: rgba(255, 255, 255, 0.60);
+     font-size: 12px;
+     font-weight: 500;
+     text-align: center;
+     margin: 50px 0px 0px 25px;
+ }
+
+ /* Gamers Section Style Goes Here */
+ .gamers {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     margin-top: 50px;
+ }
+
+ .gamers .gamers-left {
+     width: 50%;
+ }
+
+ .gamers .gamers-left img {
+     width: 100%;
+ }
+
+ .gamers .gamers-right {
+     width: 50%;
+     text-align: right;
+     padding: 10px 0px 10px 30px;
+ }
+
+ .gamers .gamers-right h2 {
+     font-size: 48px;
+     font-weight: 700;
+     margin-bottom: 0px;
+     background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+     background-clip: text;
+     -webkit-background-clip: text;
+     -webkit-text-fill-color: transparent;
+ }
+
+ .gamers .gamers-right p,
+ .gamers .gamers-right h3 {
+     color: #534C64;
+     font-size: 18px;
+     font-weight: 400;
+ }
+
+ .gamers .gamers-right .btn {
+     text-decoration: none;
+     border-radius: 50px;
+     display: inline-flex;
+     padding: 15px 30px;
+     align-items: flex-start;
+     gap: 10px;
+     color: #FFF;
+     font-size: 18px;
+     background: var(--linear, linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%));
+ }
+
+ .gamers .gamers-right .btn:hover {
+     background: white;
+     color: #FF42A5;
+     border: 1px solid #FF42A5;
+ }
+
+ .gamers .gamers-right span {
+     color: #534C64;
+     font-size: 24px;
+     font-weight: 700;
+ }
+
+
+
+
+
+
+
+
+
+
+
+ /* Responsive Designs...  */
+ /* for mobile devices - max width 576px */
+ @media screen and (max-width: 576px) {
+
+     /* Responsive Navbar Style Goes Here */
+     nav {
+         padding: 0px 20px;
+         flex-direction: column;
+         box-shadow: none;
+     }
+
+     nav ul {
+         flex-direction: column;
+     }
+
+     nav ul li {
+         margin-left: 0px;
+         margin-bottom: 50px;
+     }
+
+     nav ul li:last-child {
+         margin-bottom: 0px;
+     }
+
+     nav .nav-left {
+         margin-bottom: 50px;
+     }
+
+     nav ul li .follow {
+         margin-left: -65px;
+     }
+
+     /* Responsive Hero Section Style Goes Here */
+     .hero {
+         flex-direction: column-reverse;
+         gap: 50px;
+     }
+
+     .hero .hero-left {
+         width: 100%;
+         padding: 0px 10px;
+         background-color: #FDF6FB;
+         border-radius: 20px;
+     }
+
+     .hero .hero-left h2 {
+         font-size: 30px;
+     }
+
+     .hero .hero-left h1 {
+         font-size: 60px;
+     }
+
+     .hero .hero-left p {
+         font-size: 14px;
+     }
+
+     .hero .hero-left .btn {
+         font-size: 16px;
+         padding: 10px 5px;
+     }
+
+     /* Responsive Online Games Section Style Goes Here */
+     #online-games {
+         margin-top: 100px;
+         justify-content: center;
+         align-items: center;
+         text-align: center;
+     }
+
+     #online-games h2 {
+         color: #0B0223;
+         font-size: 30px;
+         font-weight: 700;
+         margin-bottom: 0px;
+     }
+
+     #online-games span {
+         background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+         background-clip: text;
+         -webkit-background-clip: text;
+         -webkit-text-fill-color: transparent;
+         font-size: 30px;
+         font-weight: 700;
+     }
+
+     #online-games p {
+         color: #534C64;
+         font-size: 16px;
+         font-weight: 400;
+         margin-bottom: 0px;
+     }
+
+     .online-game {
+         flex-direction: column;
+         justify-content: space-between;
+         align-items: center;
+         margin-top: 15px;
+     }
+
+     .online-game-card {
+         width: 100%;
+         padding: 25px;
+     }
+
+     .online-game-card p {
+         font-size: 16px;
+         font-weight: 500;
+         text-align: center;
+     }
+
+     /* Responsive Play-Instantly1 &  Play-Instantly2 Section Style Goes Here */
+     .Play-Instantly1 {
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         margin-top: 50px;
+     }
+
+     .Play-Instantly1 .Play-Instantly1-left {
+         width: 100%;
+         text-align: center;
+         margin-top: 0px;
+     }
+
+     .Play-Instantly1 .Play-Instantly1-left h2 {
+         font-size: 30px;
+     }
+
+     .Play-Instantly1 .Play-Instantly1-left span {
+         font-size: 30px;
+     }
+
+     .Play-Instantly1 .Play-Instantly1-left p {
+         font-size: 16px;
+     }
+
+     .Play-Instantly1 .Play-Instantly1-right {
+         width: 100%;
+         padding: 25px;
+     }
+
+     .Play-Instantly1 .Play-Instantly1-right .upper-image img {
+         width: 100%;
+         margin-left: 50px;
+     }
+
+     .Play-Instantly1 .Play-Instantly1-right .lower-image img {
+         position: relative;
+         top: -120px;
+         right: 0px;
+         width: 180px;
+         height: 200px;
+     }
+
+     .Play-Instantly2 {
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         margin-top: 30px;
+     }
+
+     .Play-Instantly2 .Play-Instantly2-left {
+         width: 100%;
+         text-align: center;
+         margin-top: 0px;
+     }
+
+     .Play-Instantly2 .Play-Instantly2-left h2 {
+         font-size: 30px;
+     }
+
+     .Play-Instantly2 .Play-Instantly2-left span {
+         font-size: 30px;
+     }
+
+     .Play-Instantly2 .Play-Instantly2-left p {
+         font-size: 16px;
+     }
+
+     .Play-Instantly2 .Play-Instantly2-right {
+         width: 100%;
+         padding: 25px;
+     }
+
+     .Play-Instantly2 .Play-Instantly2-right .upper-image img {
+         width: 100%;
+         height: 300px;
+         margin-left: -30px;
+     }
+
+     .Play-Instantly2 .Play-Instantly2-right .lower-image img {
+         position: relative;
+         top: -120px;
+         left: 80px;
+         width: 180px;
+         height: 200px;
+     }
+
+     /* Play-Button Style Goes Here */
+     .Play-Button {
+         grid-template-columns: repeat(3, 1fr);
+         grid-gap: 20px;
+         padding: 0px 30px;
+         margin-bottom: 50px;
+     }
+
+     .Play-Button .Play-Button-card {
+         width: 100%;
+         padding: 15px;
+         /* text-align: center; */
+     }
+
+     .Play-Button .Play-Button-card img {
+         width: 100%;
+     }
+
+     .Play-Button .Play-Button-card p {
+         font-size: 12px;
+         font-weight: 200;
+         margin-top: 10px;
+     }
+
+     /* Responsive Footer Section Style Goes Here */
+
+     footer .footer-left {
+         flex-direction: column;
+         width: 100%;
+         text-align: center;
+         margin-bottom: 50px;
+     }
+
+     footer .footer-left h2 {
+         font-size: 30px;
+     }
+
+     footer .footer-left span {
+         font-size: 30px;
+     }
+
+     footer .footer-left p {
+         font-size: 16px;
+     }
+
+     footer .footer-right {
+         flex-direction: column;
+         width: 100%;
+         text-align: center;
+         margin-left: -35px;
+     }
+
+     footer .footer-right p {
+         font-size: 16px;
+         text-align: center;
+         margin-left: 60px;
+     }
+
+     footer ul {
+         display: grid;
+         grid-template-columns: repeat(3, 1fr);
+         grid-gap: 20px;
+     }
+
+     /* Responsive Gamers Section Style Goes Here */
+     .gamers {
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         margin-top: 50px;
+     }
+
+     .gamers .gamers-left {
+         width: 100%;
+         text-align: center;
+         margin-top: 0px;
+     }
+
+     .gamers .gamers-left img {
+         width: 100%;
+     }
+
+     .gamers .gamers-right {
+         width: 100%;
+         text-align: center;
+         padding: 10px 0px 10px 0px;
+     }
+
+     .gamers .gamers-right h2 {
+         font-size: 30px;
+     }
+
+     .gamers .gamers-right p,
+     .gamers .gamers-right h3 {
+         font-size: 16px;
+     }
+
+
+ }
+
+ /* for mediym devices - max width 768px */
+ @media screen and (min-width: 577px) and (max-width: 768px) {
+
+     /* Responsive Navbar Style Goes Here */
+     nav {
+         padding: 0px 20px;
+         flex-direction: column;
+     }
+
+     nav ul {
+         flex-direction: column;
+     }
+
+     nav ul li {
+         margin-left: 0px;
+         margin-bottom: 50px;
+     }
+
+     nav ul li:last-child {
+         margin-bottom: 0px;
+     }
+
+     nav .nav-left {
+         margin-bottom: 50px;
+     }
+
+     .menu {
+         margin-bottom: 50px;
+     }
+
+     nav ul li .follow {
+         margin-left: -65px;
+     }
+
+     /* Responsive Hero Section Style Goes Here */
+     .hero {
+         flex-direction: column-reverse;
+         gap: 50px;
+     }
+
+     .hero .hero-left {
+         width: 100%;
+         padding: 0px 20px;
+         background-color: #FDF6FB;
+         border-radius: 20px;
+     }
+
+     /* Responsive Online Games Section Style Goes Here */
+     #online-games {
+         margin-top: 100px;
+         justify-content: center;
+         align-items: center;
+         text-align: center;
+     }
+
+     #online-games h2 {
+         color: #0B0223;
+         font-size: 30px;
+         font-weight: 700;
+         margin-bottom: 0px;
+     }
+
+     #online-games span {
+         background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+         background-clip: text;
+         -webkit-background-clip: text;
+         -webkit-text-fill-color: transparent;
+         font-size: 30px;
+         font-weight: 700;
+     }
+
+     #online-games p {
+         color: #534C64;
+         font-size: 16px;
+         font-weight: 400;
+         margin-bottom: 0px;
+     }
+
+     .online-game {
+         flex-direction: column;
+         justify-content: space-between;
+         align-items: center;
+         margin-top: 15px;
+     }
+
+     .online-game-card {
+         width: 100%;
+         padding: 25px;
+     }
+
+     .online-game-card p {
+         font-size: 16px;
+         font-weight: 500;
+         text-align: center;
+     }
+
+     /* Responsive Play-Instantly1 &  Play-Instantly2 Section Style Goes Here */
+     .Play-Instantly1 {
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         margin-top: 30px;
+     }
+
+     .Play-Instantly1 .Play-Instantly1-left {
+         width: 100%;
+         text-align: center;
+         margin-top: 0px;
+     }
+
+     .Play-Instantly1 .Play-Instantly1-left h2 {
+         font-size: 30px;
+     }
+
+     .Play-Instantly1 .Play-Instantly1-left span {
+         font-size: 30px;
+     }
+
+     .Play-Instantly1 .Play-Instantly1-left p {
+         font-size: 16px;
+     }
+
+     .Play-Instantly1 .Play-Instantly1-right {
+         width: 100%;
+         padding: 25px;
+     }
+
+     .Play-Instantly1 .Play-Instantly1-right .upper-image img {
+         width: 80%;
+         margin-left: 70px;
+     }
+
+     .Play-Instantly1 .Play-Instantly1-right .lower-image img {
+         position: relative;
+         top: -150px;
+         right: 0px;
+         width: 200px;
+         height: 220px;
+     }
+
+     .Play-Instantly2 {
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         margin-top: 30px;
+     }
+
+     .Play-Instantly2 .Play-Instantly2-left {
+         width: 100%;
+         text-align: center;
+         margin-top: 0px;
+     }
+
+     .Play-Instantly2 .Play-Instantly2-left h2 {
+         font-size: 30px;
+     }
+
+     .Play-Instantly2 .Play-Instantly2-left span {
+         font-size: 30px;
+     }
+
+     .Play-Instantly2 .Play-Instantly2-left p {
+         font-size: 16px;
+     }
+
+     .Play-Instantly2 .Play-Instantly2-right {
+         width: 100%;
+         padding: 25px;
+     }
+
+     .Play-Instantly2 .Play-Instantly2-right .upper-image img {
+         width: 80%;
+         margin-left: -10px;
+     }
+
+     .Play-Instantly2 .Play-Instantly2-right .lower-image img {
+         position: relative;
+         top: -120px;
+         left: 200px;
+         width: 270px;
+         height: 280px;
+     }
+
+     /* Play-Button Style Goes Here */
+     .Play-Button {
+         grid-template-columns: repeat(3, 1fr);
+         grid-gap: 20px;
+         margin-top: 50px;
+         margin-bottom: 50px;
+         justify-content: center;
+         align-items: center;
+         text-align: center;
+     }
+
+     /* Footer Style Goes Here */
+     footer {
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         text-align: center;
+         padding: 50px 0px;
+     }
+
+     footer .footer-logo {
+         margin-bottom: 20px;
+     }
+
+     footer .footer-logo img {
+         width: 100px;
+     }
+
+     footer p {
+         color: #534C64;
+         font-size: 16px;
+         font-weight: 400;
+         margin-bottom: 0px;
+     }
+
+     footer .footer-social {
+         margin-top: 20px;
+     }
+
+     footer .footer-social ul li {
+         margin-left: 10px;
+     }
+
+     footer .footer-social ul li a {
+         color: #534C64;
+         font-size: 20px;
+     }
+
+     footer .footer-social ul li a:hover {
+         color: #F948B2;
+     }
+
+     footer .footer-bottom {
+         margin-top: 20px;
+     }
+
+     footer .footer-bottom p {
+         color: #534C64;
+         font-size: 16px;
+         font-weight: 400;
+         margin-bottom: 0px;
+     }
+
+     footer .footer-bottom p a {
+         color: #534C64;
+         font-size: 16px;
+         font-weight: 400;
+     }
+
+     footer .footer-bottom p a:hover {
+         color: #F948B2;
+     }
+
+     /* Responsive Gamers Section Style Goes Here */
+     .gamers {
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         margin-top: 50px;
+     }
+
+     .gamers .gamers-left {
+         width: 100%;
+         text-align: center;
+         margin-top: 0px;
+     }
+
+     .gamers .gamers-left img {
+         width: 100%;
+     }
+
+     .gamers .gamers-right {
+         width: 100%;
+         text-align: center;
+         padding: 10px 0px 10px 0px;
+     }
+
+     .gamers .gamers-right h2 {
+         font-size: 30px;
+     }
+
+     .gamers .gamers-right p,
+     .gamers .gamers-right h3 {
+         font-size: 16px;
+     }
+
+ }
+
+ @media screen and (max-width: 768px) {
+
+     /* Responsive Navbar Style Goes Here */
+     nav {
+         padding: 0px 20px;
+         flex-direction: column;
+     }
+
+     nav ul {
+         flex-direction: column;
+     }
+
+     nav ul li {
+         margin-left: 0px;
+         margin-bottom: 50px;
+     }
+
+     nav ul li:last-child {
+         margin-bottom: 0px;
+     }
+
+     nav .nav-left {
+         margin-bottom: 50px;
+     }
+
+     .menu {
+         margin-bottom: 50px;
+     }
+
+     nav ul li .follow {
+         margin-left: -65px;
+     }
+
+     /* Responsive Hero Section Style Goes Here */
+     .hero {
+         flex-direction: column-reverse;
+         gap: 50px;
+     }
+
+     .hero .hero-left {
+         width: 100%;
+         padding: 0px 20px;
+     }
+ }
+
+ /* for large devices - max width 992px */
+ @media screen and (min-width: 769px) and (max-width: 992px) {
+
+     /* Responsive Navbar Style Goes Here */
+     nav {
+         padding: 0px 20px;
+         flex-direction: column;
+     }
+
+     nav ul {
+         flex-direction: column;
+     }
+
+     nav ul li {
+         margin-left: 0px;
+         margin-bottom: 50px;
+     }
+
+     nav ul li:last-child {
+         margin-bottom: 0px;
+     }
+
+     nav .nav-left {
+         margin-bottom: 50px;
+     }
+
+     .menu {
+         margin-bottom: 50px;
+     }
+
+     nav ul li .follow {
+         margin-left: -65px;
+     }
+
+     /* Responsive Hero Section Style Goes Here */
+     .hero {
+         flex-direction: column-reverse;
+         gap: 50px;
+     }
+
+     .hero .hero-left {
+         width: 100%;
+         padding: 0px 20px;
+         background-color: #FDF6FB;
+         border-radius: 20px;
+         margin: 0 auto;
+         text-align: center;
+     }
+
+     /* Responsive Online Games Section Style Goes Here */
+     #online-games {
+         margin-top: 100px;
+         justify-content: center;
+         align-items: center;
+         text-align: center;
+     }
+
+     #online-games h2 {
+         color: #0B0223;
+         font-size: 30px;
+         font-weight: 700;
+         margin-bottom: 0px;
+     }
+
+     #online-games span {
+         background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+         background-clip: text;
+         -webkit-background-clip: text;
+         -webkit-text-fill-color: transparent;
+         font-size: 30px;
+         font-weight: 700;
+     }
+
+     #online-games p {
+         color: #534C64;
+         font-size: 16px;
+         font-weight: 400;
+         margin-bottom: 0px;
+     }
+
+     .online-game {
+         flex-direction: column;
+         justify-content: space-between;
+         align-items: center;
+         margin-top: 15px;
+     }
+
+     .online-game-card {
+         width: 100%;
+         padding: 25px;
+     }
+
+     .online-game-card p {
+         font-size: 16px;
+         font-weight: 500;
+         text-align: center;
+     }
+
+     /* Responsive Play-Instantly1 &  Play-Instantly2 Section Style Goes Here */
+     .Play-Instantly1 {
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         margin-top: 30px;
+     }
+
+     .Play-Instantly1 .Play-Instantly1-left {
+         width: 100%;
+         text-align: center;
+         margin-top: 0px;
+     }
+
+     .Play-Instantly1 .Play-Instantly1-left h2 {
+         font-size: 30px;
+     }
+
+     .Play-Instantly1 .Play-Instantly1-left span {
+         font-size: 30px;
+     }
+
+     .Play-Instantly1 .Play-Instantly1-left p {
+         font-size: 16px;
+     }
+
+     .Play-Instantly1 .Play-Instantly1-right {
+         width: 100%;
+         padding: 25px;
+     }
+
+     .Play-Instantly1 .Play-Instantly1-right .upper-image img {
+         width: 80%;
+         margin-left: 70px;
+     }
+
+     .Play-Instantly1 .Play-Instantly1-right .lower-image img {
+         position: relative;
+         top: -200px;
+         right: 0px;
+         width: 290px;
+         height: 310px;
+     }
+
+     .Play-Instantly2 {
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         margin-top: 30px;
+     }
+
+     .Play-Instantly2 .Play-Instantly2-left {
+         width: 100%;
+         text-align: center;
+         margin-top: 0px;
+     }
+
+     .Play-Instantly2 .Play-Instantly2-left h2 {
+         font-size: 30px;
+     }
+
+     .Play-Instantly2 .Play-Instantly2-left span {
+         font-size: 30px;
+     }
+
+     .Play-Instantly2 .Play-Instantly2-left p {
+         font-size: 16px;
+     }
+
+     .Play-Instantly2 .Play-Instantly2-right {
+         width: 100%;
+         padding: 25px;
+     }
+
+     .Play-Instantly2 .Play-Instantly2-right .upper-image img {
+         width: 80%;
+         margin-left: -10px;
+     }
+
+     .Play-Instantly2 .Play-Instantly2-right .lower-image img {
+         position: relative;
+         top: -120px;
+         left: 370px;
+         width: 330px;
+         height: 340px;
+     }
+
+
+     /* Play-Button Style Goes Here */
+     .Play-Button {
+         grid-template-columns: repeat(3, 1fr);
+         grid-gap: 20px;
+         margin-top: 50px;
+         margin-bottom: 50px;
+         justify-content: center;
+         align-items: center;
+         text-align: center;
+     }
+
+     /* Responsive Gamers Section Style Goes Here */
+     .gamers {
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         margin-top: 50px;
+     }
+
+     .gamers .gamers-left {
+         width: 100%;
+         text-align: center;
+         margin-top: 0px;
+     }
+
+     .gamers .gamers-left img {
+         width: 100%;
+     }
+
+     .gamers .gamers-right {
+         width: 100%;
+         text-align: center;
+         padding: 10px 0px 10px 0px;
+     }
+
+     .gamers .gamers-right h2 {
+         font-size: 30px;
+     }
+
+     .gamers .gamers-right p,
+     .gamers .gamers-right h3 {
+         font-size: 16px;
+     }
+ }
