@@ -406,12 +406,12 @@
      padding: 5px; */
 
      display: flex;
-     flex-basis:200px;
+     flex-basis: 200px;
      padding: 5px;
      border-radius: 15px;
      align-items: center;
      justify-content: center;
-     
+
  }
 
  .Play-Button .Play-Button-Card img {
@@ -588,6 +588,91 @@
      font-weight: 700;
  }
 
+ /* Career Style Goes Here */
+ #Careers {
+     margin-top: -150px;
+     margin-bottom: 150px;
+     background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+ }
+
+ .Career {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+     margin-top: 50px;
+ }
+
+ .Career .Career-left {
+     width: 50%;
+ }
+
+ .Career .Career-left h2 {
+     color: #FFF;
+     font-size: 48px;
+     font-weight: 700;
+ }
+
+ .Career .Career-left p {
+     color: #FFF;
+     font-size: 18px;
+     font-weight: 400;
+     text-align: justify;
+ }
+
+ .Career .Career-left .all-p {
+     display: flex;
+     flex-direction: row;
+     justify-content: space-between;
+     align-items: center;
+ }
+
+ .Career .Career-left .p-left p  {
+     color: #FFF;
+     font-size: 18px;
+     font-weight: 400;
+     margin-top: 0px;
+     text-align: left;
+ }
+
+ .Career .Career-left .p-right p {
+     color: #FFF;
+     font-size: 18px;
+     font-weight: 400;
+     margin-top: 0px;
+     text-align: end;
+ }
+
+ .Career .Career-left .btn {
+     text-decoration: none;
+     border-radius: 50px;
+     display: inline-flex;
+     padding: 15px 30px;
+     align-items: flex-start;
+     gap: 10px;
+     font-size: 18px;
+     background: white;
+        color: #FF42A5;
+        font-size: 18px;
+        font-weight: 500;
+        /* text-transform: uppercase; */
+        text-decoration: none;
+ }
+
+    .Career .Career-left .btn:hover {
+        background: #FF42A5;
+        color: white;
+        border: 1px solid white;
+    }
+
+ .Career .Career-right {
+     width: 50%;
+ }
+
+ .Career .Career-right img {
+     width: 100%;
+ }
+
 
 
 
@@ -602,9 +687,9 @@
  /* for mobile devices - max width 576px */
  @media screen and (max-width: 576px) {
 
-    .container {
-        padding: 30px 80px;
-    }
+     .container {
+         padding: 30px 80px;
+     }
 
      /* Responsive Navbar Style Goes Here */
      nav {
@@ -662,7 +747,7 @@
 
      .hero .hero-left .btn {
          font-size: 14px;
-         padding: 15px 25px;
+         padding: 5px 15px;
      }
 
      /* Responsive Online Games Section Style Goes Here */
@@ -795,16 +880,22 @@
      }
 
      .Play-Instantly2 .Play-Instantly2-right .lower-image img {
-         position: relative;
+         /* position: relative;
          top: -120px;
          left: 180px;
+         width: 180px;
+         height: 200px; */
+
+         position: relative;
+         top: -120px;
+         left: 30px;
          width: 180px;
          height: 200px;
      }
 
      /* Play-Button Style Goes Here */
      .Play-Button {
-        display: grid;
+         display: grid;
          grid-template-columns: repeat(3, 1fr);
          grid-gap: 0px;
          padding: 0px 80px;
@@ -899,6 +990,58 @@
      .gamers .gamers-right h3 {
          font-size: 16px;
      }
+
+     /* Responsive Career Section Style Goes Here */
+        #Careers {
+            margin-top: -150px;
+            margin-bottom: 150px;
+            background: linear-gradient(90deg, #FF42A5 0%, #FF42A5 100%);
+        }
+
+        .Career {
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            margin-top: 50px;
+        }
+
+        .Career .Career-left {
+            width: 100%;
+            text-align: center;
+            margin-top: 0px;
+        }
+
+        .Career .Career-left h2 {
+            font-size: 30px;
+        }
+
+        .Career .Career-left p {
+            font-size: 14px;
+        }
+
+        .Career .Career-left .p-left p {
+            font-size: 14px;
+
+        }
+
+        .Career .Career-left .p-right p {
+            font-size: 14px;
+        }
+
+        .Career .Career-left .btn {
+            font-size: 16px;
+            padding: 5px 15px;
+        }
+
+        .Career .Career-right {
+            margin-top: 20px;
+            width: 100%;
+            text-align: center;
+        }
+
+        .Career .Career-right img {
+            width: 100%;
+        }
 
 
  }
