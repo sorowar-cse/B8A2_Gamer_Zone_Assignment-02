@@ -302,7 +302,7 @@
  }
 
  .Play-Instantly2 {
-     margin-top: -100px;
+     margin-top: -150px;
      flex-direction: row-reverse;
  }
 
@@ -762,7 +762,7 @@
          flex-direction: column;
          justify-content: center;
          align-items: center;
-         margin-top: 30px;
+         margin-top: -60px;
      }
 
      .Play-Instantly2 .Play-Instantly2-left {
