@@ -139,7 +139,8 @@
      font-weight: 500;
      text-transform: uppercase;
      text-decoration: none;
-     margin-top: 30px;
+     margin-top: 10px;
+     margin-bottom: 30px;
      display: inline-block;
  }
 
@@ -601,6 +602,10 @@
  /* for mobile devices - max width 576px */
  @media screen and (max-width: 576px) {
 
+    .container {
+        padding: 30px 80px;
+    }
+
      /* Responsive Navbar Style Goes Here */
      nav {
          padding: 0px 20px;
@@ -638,7 +643,7 @@
      .hero .hero-left {
          width: 100%;
          margin: 0 auto;
-         padding: 0px 10px;
+         padding: 15px 30px;
          background-color: #FDF6FB;
          border-radius: 20px;
      }
@@ -652,12 +657,12 @@
      }
 
      .hero .hero-left p {
-         font-size: 12px;
+         font-size: 14px;
      }
 
      .hero .hero-left .btn {
-         font-size: 12px;
-         padding: 10px 5px;
+         font-size: 14px;
+         padding: 15px 25px;
      }
 
      /* Responsive Online Games Section Style Goes Here */
@@ -736,7 +741,7 @@
      }
 
      .Play-Instantly1 .Play-Instantly1-right {
-         width: 100%;
+         width: 80%;
          padding: 25px;
      }
 
@@ -779,14 +784,14 @@
      }
 
      .Play-Instantly2 .Play-Instantly2-right {
-         width: 90%;
-         /* padding: 25px; */
+         width: 80%;
+         padding: 25px;
      }
 
      .Play-Instantly2 .Play-Instantly2-right .upper-image img {
          width: 100%;
          /* height: 300px; */
-         margin-left: -40px;
+         margin-left: -50px;
      }
 
      .Play-Instantly2 .Play-Instantly2-right .lower-image img {
