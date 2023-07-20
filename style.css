@@ -260,7 +260,7 @@
  }
 
  .online-game-card-special:hover .image3 {
-     opacity: 0.8;
+     opacity: 0.6;
  }
 
  .online-game-card-special:hover .middle {
@@ -273,7 +273,7 @@
      /* padding: 10px 20px; */
      color: #F948B2;
      font-size: 18px;
-     font-weight: 500;
+     font-weight: 800;
      /* text-transform: uppercase; */
      text-decoration: none;
      /* margin-top: 30px; */
@@ -282,7 +282,7 @@
 
  .online-game-card-special .middle i {
      color: #FFF;
-     font-size: 16px;
+     font-size: 24px;
      margin-right: 10px;
  }
 
@@ -367,11 +367,19 @@
      justify-content: center;
      align-items: center;
      margin-top: -150px;
-     padding: 100px 120px;
-     display: grid;
+     /* padding: 100px 120px; */
+     /* display: grid;
      grid-template-columns: repeat(5, 1fr);
-     grid-gap: 5px;
+     grid-gap: 5px; */
      background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+
+     display: flex;
+     flex-basis: 200px;
+     padding: 100px 10px;
+     border-radius: 10px;
+     align-items: center;
+     justify-content: center;
+     flex-wrap: wrap;
  }
 
  /* .Card4 {
@@ -391,22 +399,29 @@
  } */
 
  .Play-Button .Play-Button-Card {
-     display: flex;
+     /* display: flex;
      flex-direction: row;
-     /* justify-content: space-between; */
      align-items: center;
+     padding: 5px; */
+
+     display: flex;
+     flex-basis:200px;
      padding: 5px;
+     border-radius: 15px;
+     align-items: center;
+     justify-content: center;
+     
  }
 
  .Play-Button .Play-Button-Card img {
      width: 45px;
      height: 45px;
-     border-radius: 50%;
+     /* border-radius: 50%; */
  }
 
  .Play-Button .Play-Button-Card p {
      color: #0B0223;
-     font-size: 14px;
+     font-size: 12px;
      font-weight: 600;
      margin-left: 5px;
  }
@@ -733,7 +748,7 @@
      .Play-Instantly1 .Play-Instantly1-right .lower-image img {
          position: relative;
          top: -120px;
-         right: 0px;
+         right: 30px;
          width: 180px;
          height: 200px;
      }
@@ -764,35 +779,36 @@
      }
 
      .Play-Instantly2 .Play-Instantly2-right {
-         width: 100%;
-         padding: 25px;
+         width: 90%;
+         /* padding: 25px; */
      }
 
      .Play-Instantly2 .Play-Instantly2-right .upper-image img {
          width: 100%;
-         height: 300px;
-         margin-left: -30px;
+         /* height: 300px; */
+         margin-left: -40px;
      }
 
      .Play-Instantly2 .Play-Instantly2-right .lower-image img {
          position: relative;
          top: -120px;
-         left: 80px;
+         left: 180px;
          width: 180px;
          height: 200px;
      }
 
      /* Play-Button Style Goes Here */
      .Play-Button {
+        display: grid;
          grid-template-columns: repeat(3, 1fr);
-         grid-gap: 20px;
-         padding: 0px 30px;
+         grid-gap: 0px;
+         padding: 0px 80px;
          margin-bottom: 50px;
      }
 
      .Play-Button .Play-Button-card {
-         width: 100%;
-         padding: 15px;
+         width: 80%;
+         padding: 5px;
          /* text-align: center; */
      }
 
